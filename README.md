@@ -23,7 +23,7 @@ the line lcd.print controls the text being displayed. I changed it from : <br>lc
 
 #### B.(e) Include a copy of your Lowly Multimeter code in your lab write-up.
 
-[Image of the LCD showing result]<br><img src="https://i.imgur.com/IoS8F4P.jpg" height="50%" width="50%">
+[Image of the LCD showing result]<br><img src="https://i.imgur.com/IoS8F4P.jpg" height="50%" width="50%"><br>
 [View Code Used](https://github.com/ankit-health-tech/device-lab2/blob/master/analoginput.ino)
 
 #### C. Rotary Encoder Setup
