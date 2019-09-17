@@ -26,4 +26,31 @@ the line lcd.print controls the text being displayed. I changed it from : <br>lc
 [Image of the LCD showing result]<br><img src="https://i.imgur.com/IoS8F4P.jpg" height="50%" width="50%">
 [View Code Used](https://github.com/ankit-health-tech/device-lab2/blob/master/analoginput.ino)
 
-### Part C. 
+#### C. Rotary Encoder Setup
+
+[Video of Implementation](https://i.imgur.com/XfysQLR.mp4)
+
+### D. Make your arduino sing
+
+#### Part D.(a) How would you change the code to make the song play twice as fast?
+
+By Changing this line of code from : 
+<br>
+int noteDuration = 1000 / noteDurations[thisNote]
+<br> to
+<br>
+int noteDuration = 500 / noteDurations[thisNote]<br>
+essential halving the note duration
+
+#### Part D.(b) What song is playing?
+
+Its from the Star Wars OST, possibly the main theme song!
+
+### E. Make your own timer
+
+My timer is a countdown for Tom to setup a funbomb. Tom initially sets the countdown time enough for him to reach a safe distance. Then he waits for jerry and the countdown to go BOOM!
+
+[View Code](https://github.com/ankit-health-tech/device-lab2/blob/master/bomb_timer.ino)
+[View Video](https://i.imgur.com/u5TYR9n.mp4)
+[Circuit Design]<br><img src="https://i.imgur.com/9b0CRGX.jpg" height="50%" width="50%">
+
